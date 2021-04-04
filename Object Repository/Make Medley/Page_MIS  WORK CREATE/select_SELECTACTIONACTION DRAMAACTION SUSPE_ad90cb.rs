@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SELECTACTIONACTION DRAMAACTION SUSPE_ad90cb</name>
+   <tag></tag>
+   <elementGuidId>692a541d-74f0-4bf7-8c81-0613e76f175d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='workSubCategorySelect']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#workSubCategorySelect</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>workSubCategory validate[required]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>workSubCategorySelect</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SELECTACTIONACTION DRAMAACTION SUSPENSEALTERNATIVE / POPALTERNATIVE RNBBACKGROUNDBALLADBLUESBOSSANOVACHA CHACHASCHASECHORAL MUSICCHRISTMASCLASSICCLOSING THEMECOM SLOCOMEDYCOMMERCIAL JINGLECONTEMPORARYDANCEDANCE R &amp; BDRAMAESTABLISHINGETHNICETHNIC JAZZFEATUREFOLKFOLK BALLADFOLK DANCEFOLK POPFOLK SONGFUSIONGOSPELHAPPYIN HOUSE MUSICINCIDENTALINSPIRATIONALINSPIRATIONAL BALLADINSTITUTIONALINSTRUMENTAL MUSICINTERVAL MUSICKODKUNDIMANLATIN BEATLIGHTLIGHT COMEDYLIGHT DRAMALIGHT MOODLIVELULLABYMARCHMOODNILNOVELTYNUETRALOPENING THEMEORCHESTRAORCHESTRA/CHOIRORCHESTRA/DUETORCHESTRA/SOLOORCHESTRAL/CHORALPI STPOPPOP BALLADPOP ETHNICPOP/DANCEPOP/GOSPELPOP/RNBPOP/ROCKPROGRAMME IDR &amp; B BALLADRAPREGGAERINGTONESROCKRTDSACRED MUSICSADSIGNATURE TUNESOUL R &amp; BST SUSSTATION IDSTINGERSUSPENSESUSPENSE DRAMASUSPENSE FLIGHTSUSPENSE MOODTHEMETHEME MOVETHEME SONGTRADEMARK/EMBLEM/LOGOTRANSTV JINGLEVALSEWALTZWORLD MUSICYOUTUBE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;workSubCategorySelect&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Make Medley/Page_MIS  WORK CREATE/iframe_Aug 10,2013_tabs1-WORKCREATE_iFrame</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='workSubCategorySelect']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='workInformation']/div/div[5]/div/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Category'])[2]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MR : UNIDENTIFIED'])[1]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Internal No'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language of Title'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>
