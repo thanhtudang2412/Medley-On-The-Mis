@@ -34,11 +34,11 @@ import java.lang.String as String
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://203.169.117.254:8080/login?forcedLogin=true')
+WebUI.navigateToUrl('http://203.169.117.253:8080/dashboard')
 
 WebUI.setText(findTestObject('Object Repository/Make Medley/Page_MISASIA VER2.0/input_Login_username'), 'dangthanhtu')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Make Medley/Page_MISASIA VER2.0/input_Login_password'), 'dR8VJiTWKXduFNTM4d68fg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Make Medley/Page_MISASIA VER2.0/input_Login_password'), 'B4qAL5nAv13pn/fsps+flQ==')
 
 WebUI.click(findTestObject('Object Repository/Make Medley/Page_MISASIA VER2.0/input_Remember me_Submit'))
 
@@ -48,12 +48,12 @@ WebUI.click(findTestObject('Object Repository/Make Medley/Page_MISASIA  Admin/a_
 
 WebUI.click(findTestObject('Object Repository/Make Medley/Page_MISASIA  Admin/a_Work Retrieval'))
 
-fileName = "D:\\Tú\\Processed\\LK_Aibiz_Tú_18.1.xlsx"
-idLink = 3
-vieTitle = 17
-engTitle = 18
-code = 6
-failedCode = 19
+fileName = "C:\\Users\\WIN10\\Desktop\\Nam_29-30.5(Tú).xlsx"
+idLink = 4
+vieTitle = 19
+engTitle = 20
+code = 18
+failedCode = 21
 addDelay = 0.75
 createDelay = 10
 commitDelay = 20 
@@ -67,7 +67,7 @@ preRowVal = 'pre'
 
 rowVal = 'start'
 
-for (i = 1; i < n; i++) {
+for (i = 1; i < 25; i++) {
 	rowVal = sheet.getRow(i).getCell(idLink).getStringCellValue()
 
 	if (rowVal != preRowVal) {

@@ -37,10 +37,10 @@ public class NlpUtils{
 }
 
 WebUI.openBrowser('')
-fileName = "D:\\Tú\\Processed\\LK_Aibiz_Tú_18.1.xlsx"
-idLink = 3
-vieTitle = 17
-engTitle = 18
+fileName = "C:\\Users\\WIN10\\Desktop\\Nam_29-30.5(Tú).xlsx"
+idLink = 4
+vieTitle = 19
+engTitle = 20
 FileInputStream file = new FileInputStream (new File(fileName))
 XSSFWorkbook workbook = new XSSFWorkbook(file);
 XSSFSheet sheet = workbook.getSheetAt(0);
@@ -49,8 +49,9 @@ println(n)
 NlpUtils m = new NlpUtils()
 preRowVal = "pre"
 rowVal = "start"
-for (i = 1; i<n; i++){
+for (i = 1; i<25; i++){
 	rowVal = sheet.getRow(i).getCell(idLink).getStringCellValue();
+	print(rowVal.toString())
 	if (rowVal!=preRowVal){
 		WebUI.navigateToUrl("https://www.youtube.com/watch?v=" + rowVal)
 		s = WebUI.getWindowTitle()
@@ -68,9 +69,18 @@ for (i = 1; i<n; i++){
 		else{
 			s = "LK " + s
 		}
-		sheet.getRow(i).createCell(vieTitle).setCellValue(s);
-		s = m.removeAccent(s)
-		sheet.getRow(i).createCell(engTitle).setCellValue(s+' ('+rowVal+') ');
+		s1 = ''
+		j = 0
+		if (s.length()>60){
+			a = s.split(' ')
+			while(s1.length()<50) {
+				s1 += a[j] + " "
+				j += 1
+			}
+		}
+		sheet.getRow(i).createCell(vieTitle).setCellValue(s1);
+		s1 = m.removeAccent(s1)
+		sheet.getRow(i).createCell(engTitle).setCellValue(s1);
 		preRowVal = rowVal
 		
 		file.close();
